@@ -30,6 +30,7 @@ class GLWidget : public QGLWidget
         GLfloat xRot, yRot, zRot;
         GLuint texture[1];//用来存储一个纹理
 
+
     private:
         GLfloat Point[5][3];
 };
